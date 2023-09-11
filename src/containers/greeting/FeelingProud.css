@@ -1,0 +1,45 @@
+#freepik-tabs {
+  transform: translateY(-9px);
+  animation: eyeb 3s linear infinite;
+}
+
+#freepik-files {
+  transform: translateY(-9px);
+  animation: eyeb 4s linear infinite;
+}
+
+#freepik-backgorund {
+  transform: translateY(-9px);
+  animation: eyeb 5s linear infinite;
+}
+
+#freepik-drink {
+  transform: translateY(-9px);
+  animation: eyeb 7s linear infinite;
+}
+
+@keyframes eyeb {
+  0% {
+    transform: translateY(-10);
+    -ms-transform: translateY(-10);
+    -moz-transform: translateY(-10);
+  }
+
+  25% {
+    transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+  }
+
+  75% {
+    transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(10);
+    -moz-transform: translateY(10);
+    -ms-transform: translateY(10);
+  }
+}
