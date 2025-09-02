@@ -13,7 +13,7 @@ const greeting = {
   title2: "Nevzat ÇIRAK",
   nickname: "nevzatcirak",
   full_name: "Nevzat ÇIRAK",
-  subTitle: "Full Stack Developer, Java, Spring, React 🧪. Blockchain Enthusiast 🔥",
+  subTitle: "Lead Full Stack Software Engineer, Java, GO, Rust, React 🧪. AI Agents & Blockchain Enthusiast 🔥",
   resumeLink:
     "https://drive.google.com/file/d/1mNLyvgCiT_xlUWHCjGHbYvhY_V38B4kJ/view?usp=sharing",
   mail: "mailto:nevzatcirak17@gmail.com",
@@ -38,8 +38,8 @@ const skills = {
       skills: [
         "⚡ Develop highly interactive Front end / User Interfaces for your web",
         "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and Android",
-        "⚡ Creating application backend in Spring & JAVA, GO",
+        "⚡ Creating application backend and AI Agents in Spring & JAVA, GO",
+        "⚡ Building smart contracts in Rust and Solidity",
         "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
       ],
       softwareSkills: [
@@ -94,8 +94,8 @@ const skills = {
           },
         },
         {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
           style: {
             color: "#4479A1",
           },
@@ -115,17 +115,17 @@ const skills = {
           },
         },
         {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
           skillName: "GO",
           fontAwesomeClassname: "simple-icons:go",
           style: {
             color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Rust",
+          fontAwesomeClassname: "simple-icons:rust",
+          style: {
+            color: "#61DAFB",
           },
         },
       ],
@@ -248,7 +248,7 @@ const experience = {
           logo_path: "havelsan.svg",
           duration: "Oct 2017 - Present",
           location: "Ankara, Türkiye",
-          description: `In brief, working on Backend and Frontend programming in infra team. As Backend, Using Hibernate, Spring Boot, Spring Data, Spring Security, OAuth2, Apache Kafka, Docker and Java technologies. As Frontend, Using React framework + Redux and also developing customize javascript framework.`,
+          description: `In brief, working on Backend and Frontend programming in infra team. As Backend, Using GO, Spring Boot, Spring Data, Spring AI, OAuth2, Apache Kafka, OPA, Docker and Java technologies. As Frontend, Using React framework.`,
           color: "#ee3c26",
         },
       ],
