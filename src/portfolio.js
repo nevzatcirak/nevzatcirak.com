@@ -13,7 +13,8 @@ const greeting = {
   title2: "Nevzat ÇIRAK",
   nickname: "nevzatcirak",
   full_name: "Nevzat ÇIRAK",
-  subTitle: "Lead Full Stack Software Engineer, Java, GO, Rust, React 🧪. AI Agents & Blockchain Enthusiast 🔥",
+  subTitle:
+    "Lead Software Engineer specializing in Agentic AI Systems, Identity & Access Management, Java · Go · Rust · React. Building secure, resilient and scalable platforms.",
   resumeLink:
     "https://drive.google.com/file/d/1mNLyvgCiT_xlUWHCjGHbYvhY_V38B4kJ/view?usp=sharing",
   mail: "mailto:nevzatcirak17@gmail.com",
@@ -36,11 +37,11 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive Front end / User Interfaces for your web",
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Creating application backend and AI Agents in Spring & JAVA, GO",
-        "⚡ Building smart contracts in Rust and Solidity",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+        "⚡ Designing and building secure, scalable applications end-to-end.",
+        "⚡ Developing responsive and modern UIs using ReactJS.",
+        "⚡ Building distributed backends, IAM systems and AI Agents using Java, Spring, Go and Rust.",
+        "⚡ Smart contract development on CosmWasm and EVM (Rust & Solidity).",
+        "⚡ Integrating third-party and cloud-native services (Firebase, AWS, DigitalOcean, Kafka, OPA).",
       ],
       softwareSkills: [
         {
@@ -134,9 +135,9 @@ const skills = {
       title: "Cloud Infra Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        "⚡ Architecting microservice-based and zero-trust compatible infrastructures.",
+        "⚡ Managing deployments, containerization, secrets, and service mesh.",
+        "⚡ Implementing CI/CD pipelines and automated security checks.",
       ],
       softwareSkills: [
         {
@@ -209,8 +210,8 @@ const degrees = {
       alt_name: "Anadolu",
       duration: "2012 - 2017",
       descriptions: [
-        "⚡ In addition to Electronic courses, I have studied Algorithms and Data Structures, Image Processing, Data Network Architecture and Microprocessor Programming.",
-        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
+        "⚡ Studied signal processing, algorithms, embedded systems and network architectures.",
+        "⚡ Completed additional courses and independent projects in backend, web and mobile development.",
       ],
       website_link: "https://www.anadolu.edu.tr/",
     },
@@ -221,7 +222,7 @@ const degrees = {
       alt_name: "Anadolu",
       duration: "2014 - 2020",
       descriptions: [
-        "⚡ I have studied courses like Accounting, Finance, Statistics, Business ethics, Operations and supply chain management, Marketing management etc.",
+        "⚡ Learned core concepts of finance, strategy, statistics, operations and management.",
       ],
       website_link: "https://www.anadolu.edu.tr/",
     },
@@ -234,8 +235,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I am currently working as Software Engineer. Also, I've completed two internship and I took part in the Unmanned Aerial Systems team at University, which is Developing a mission-focused unmanned air system capable of autonomous\n" +
-      "flight and navigation",
+    "I currently work as a Software Engineer focusing on backend systems, IAM, Zero-Trust architectures and AI-driven microservices. I have completed two internships and contributed to the development of autonomous UAV systems during university.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -248,7 +248,8 @@ const experience = {
           logo_path: "havelsan.svg",
           duration: "Oct 2017 - Present",
           location: "Ankara, Türkiye",
-          description: `In brief, working on Backend and Frontend programming in infra team. As Backend, Using GO, Spring Boot, Spring Data, Spring AI, OAuth2, Apache Kafka, OPA, Docker and Java technologies. As Frontend, Using React framework.`,
+          description:
+            "Working in the infrastructure and security-focused engineering team. Backend experience includes Go, Spring Boot, Spring Data, Spring AI, OAuth2, Kafka, OPA and Java. Frontend development with React. Contributing to IAM, zero-trust, policy enforcement and distributed systems.",
           color: "#ee3c26",
         },
       ],
@@ -264,9 +265,20 @@ const experience = {
           duration: "Sep 2015 - June 2017",
           location: "Eskişehir, Türkiye",
           description:
-            "Developing a mission-focused unmanned air system capable of autonomous flight and navigation.",
+            "Developed autonomous navigation and mission-oriented flight software as part of the UAV team.",
           color: "#D83B01",
         },
+        {
+          title: "AuthZEN WG · Shared Signals WG Contributor",
+          company: "OpenID Foundation",
+          company_url: "https://openid.net/",
+          logo_path: "openid.png",
+          duration: "2025 - Present",
+          location: "Remote",
+          description:
+            "Contributing to modern identity standards including AuthZEN specifications, Shared Signals Framework (SSF / RISC / CAEP) and identity interoperability efforts under the OpenID Foundation.",
+          color: "#0B5FFF"
+        }
       ],
     },
   ],
@@ -276,7 +288,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "I build scalable backend systems, AI agent frameworks, IAM solutions, secure cloud components, NodeJS utilities, and modern React applications. Below is a selection of my projects (not all are public on GitHub).",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -286,12 +298,12 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "nevzatcirak.jpeg",
     description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
+      "Feel free to reach out through any of the platforms below. I typically respond quickly, especially regarding AI, IAM, security or engineering collaborations.",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
+      "I document technical research, AI agent experiments, and IAM/Zero-Trust insights.",
     link: "https://twitter.com/nevzatcirak",
     avatar_image_path: "blogs_image.svg",
   },
@@ -304,43 +316,19 @@ const projects = {
       name: "Keep Calm and Carry On",
       url: "",
       description:
-        "This platform enables users to practice Augmented Reality meditation, play stress burster games, track task completion and engage in motivational exercises to cope with stress and anxiety at work.  ",
+        "A platform offering AR-based meditation, cognitive stress-relief tools, mini-games and productivity tracking to help users manage anxiety and focus better.",
       languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "Augmented Reality",
-          iconifyClass: "bi:badge-ar",
-        },
+        { name: "HTML5", iconifyClass: "logos-html-5" },
+        { name: "CSS3", iconifyClass: "logos-css-3" },
+        { name: "NodeJs", iconifyClass: "logos-nodejs" },
+        { name: "Augmented Reality", iconifyClass: "bi:badge-ar" },
       ],
       links: [
-        {
-          name: "Github",
-          url: "",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devpost",
-          url: "",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-        {
-          name: "Live Demo",
-          url: "",
-          iconifyClass: "mdi:web",
-        },
+        { name: "Github", url: "", iconifyClass: "ri:github-fill" },
+        { name: "Devpost", url: "", iconifyClass: "fluent:window-dev-edit-20-filled" },
+        { name: "Live Demo", url: "", iconifyClass: "mdi:web" },
       ],
-    }
+    },
   ],
 };
 
