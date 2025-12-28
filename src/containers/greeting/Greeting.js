@@ -47,6 +47,9 @@ export default function Greeting(props) {
                 >
                   Contact Me
                 </button>
+                <a {...styles} className="general-btn" href={greeting.aiLink}>
+                  Ask Digital Assistant
+                </a>
               </div>
             </div>
           </div>

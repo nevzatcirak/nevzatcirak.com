@@ -16,8 +16,9 @@ const greeting = {
   subTitle:
     "Lead Software Engineer specializing in Agentic AI Systems, Identity & Access Management, Java · Go · Rust · React. Building secure, resilient and scalable platforms.",
   resumeLink:
-    "https://drive.google.com/file/d/1mNLyvgCiT_xlUWHCjGHbYvhY_V38B4kJ/view?usp=sharing",
+    "https://drive.google.com/file/d/1yLQqIF5NlyD-QvCaCPdYt6kG1Z98b5uv/view?usp=sharing",
   mail: "mailto:nevzatcirak17@gmail.com",
+  aiLink: "https://ai.nevzatcirak.com",
 };
 
 const socialMediaLinks = {
