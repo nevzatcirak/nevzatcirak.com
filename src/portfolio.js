@@ -293,7 +293,7 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "Full Stack Developer",
+          title: "Lead Software Engineer",
           company: "HAVELSAN",
           company_url: "https://havelsan.com.tr/",
           logo_path: "havelsan.svg",
