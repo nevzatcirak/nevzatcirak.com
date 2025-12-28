@@ -38,7 +38,7 @@ export default function Greeting(props) {
               </p>
               <p
                 className="greeting-text-p"
-                style={{ fontSize: 20 }}
+                style={{ fontSize: 15 }}
               >
                 {greeting.note}
               </p>
