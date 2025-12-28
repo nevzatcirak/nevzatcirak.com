@@ -36,7 +36,7 @@ const skills = {
   data: [
     {
       title: "Platform & Security",
-      fileName: "DesignImg",
+      fileName: "FullStackImg",
       skills: [
         "⚡ Architecting secure, scalable distributed systems and cloud-native microservices",
         "⚡ Implementing Identity Access Management (IAM) solutions (OAuth2, OpenID Connect, AuthZEN)",
@@ -86,7 +86,7 @@ const skills = {
     },
     {
       title: "Full Stack Development",
-      fileName: "FullStackImg",
+      fileName: "DesignImg",
       skills: [
         "⚡ Designing and building secure, scalable applications end-to-end.",
         "⚡ Developing responsive and modern UIs using ReactJS.",
