@@ -14,7 +14,7 @@ const greeting = {
   nickname: "nevzatcirak",
   full_name: "Nevzat ÇIRAK",
   subTitle:
-    "Lead Software Engineer specializing in Agentic AI Systems, Identity & Access Management, Java · Go · Rust · React. Building secure, resilient and scalable platforms.",
+    "Lead Software Engineer | Backend/Platform / Security | IAM Interoperability",
   resumeLink:
     "https://drive.google.com/file/d/1yLQqIF5NlyD-QvCaCPdYt6kG1Z98b5uv/view?usp=sharing",
   mail: "mailto:nevzatcirak17@gmail.com",
@@ -34,6 +34,49 @@ const socialMediaLinks = {
 
 const skills = {
   data: [
+    {
+      title: "Backend, Platform & Security",
+      fileName: "FullStackImg",
+      skills: [
+        "Architecting secure, scalable distributed systems and cloud-native microservices",
+        "Implementing Identity Access Management (IAM) solutions (OAuth2, OpenID Connect, AuthZEN)",
+        "Developing with Java (Spring Boot), Golang, and Rust",
+        "Policy-based authorization using OPA and zero-trust architectures",
+        "Experience with Docker, Kafka, Traefik, PostgreSQL, and MongoDB"
+      ],
+      softwareSkills: [
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "fab fa-java",
+          style: { backgroundColor: "#007396", color: "#FFFFFF" },
+        },
+        {
+          skillName: "Spring Boot",
+          fontAwesomeClassname: "fas fa-leaf",
+          style: { backgroundColor: "#6DB33F", color: "#FFFFFF" },
+        },
+        {
+          skillName: "Golang",
+          fontAwesomeClassname: "fab fa-google",
+          style: { backgroundColor: "#00ADD8", color: "#FFFFFF" },
+        },
+        {
+          skillName: "React",
+          fontAwesomeClassname: "fab fa-react",
+          style: { backgroundColor: "#61DAFB", color: "#FFFFFF" },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "fab fa-docker",
+          style: { backgroundColor: "#2496ED", color: "#FFFFFF" },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "fas fa-database",
+          style: { backgroundColor: "#336791", color: "#FFFFFF" },
+        },
+      ],
+    },
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
@@ -236,11 +279,11 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I currently work as a Software Engineer focusing on backend systems, IAM, Zero-Trust architectures and AI-driven microservices. I have completed two internships and contributed to the development of autonomous UAV systems during university.",
+    "Leading backend engineering for secure distributed systems and contributing to global identity standards.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work Experience",
+      title: "Work",
       experiences: [
         {
           title: "Full Stack Developer",
@@ -259,17 +302,6 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Software Developer",
-          company: "Unmanned Aerial Vehicle Team - Anadolu University",
-          company_url: "https://www.anadolu.edu.tr/",
-          logo_path: "anadolu.png",
-          duration: "Sep 2015 - June 2017",
-          location: "Eskişehir, Türkiye",
-          description:
-            "Developed autonomous navigation and mission-oriented flight software as part of the UAV team.",
-          color: "#D83B01",
-        },
-        {
           title: "AuthZEN WG · Shared Signals WG Contributor",
           company: "OpenID Foundation",
           company_url: "https://openid.net/",
@@ -279,6 +311,17 @@ const experience = {
           description:
             "Contributing to modern identity standards including AuthZEN specifications, Shared Signals Framework (SSF / RISC / CAEP) and identity interoperability efforts under the OpenID Foundation.",
           color: "#0B5FFF"
+        },
+        {
+          title: "Software Developer",
+          company: "Unmanned Aerial Vehicle Team - Anadolu University",
+          company_url: "https://www.anadolu.edu.tr/",
+          logo_path: "anadolu.png",
+          duration: "Sep 2015 - June 2017",
+          location: "Eskişehir, Türkiye",
+          description:
+            "Developed autonomous navigation and mission-oriented flight software as part of the UAV team.",
+          color: "#D83B01",
         }
       ],
     },
@@ -313,21 +356,47 @@ const contactPageData = {
 const projects = {
   data: [
     {
-      id: "0",
-      name: "Keep Calm and Carry On",
+      id: "1",
+      name: "Shared Signals Framework (SSF) Implementation",
+      url: "https://github.com/nevzatcirak/SharedSignals",
+      description:
+        "Implementing the Shared Signal Framework specification as an open source project. Reference implementation for SSF spec supporting modern security signaling patterns.",
+      languages: [
+        { name: "Java", iconifyClass: "logos-java" },
+        { name: "Security", iconifyClass: "logos-google-security" },
+      ],
+    },
+    {
+      id: "2",
+      name: "MIP4 Gateway Implementation",
       url: "",
       description:
-        "A platform offering AR-based meditation, cognitive stress-relief tools, mini-games and productivity tracking to help users manage anxiety and focus better.",
+        "Creating prototypes validating MIP Block 4 baseline specifications and MIP4 Gateway implementation using SOAP and REST Web Services for Multilateral Interoperability Programme.",
       languages: [
-        { name: "HTML5", iconifyClass: "logos-html-5" },
-        { name: "CSS3", iconifyClass: "logos-css-3" },
-        { name: "NodeJs", iconifyClass: "logos-nodejs" },
-        { name: "Augmented Reality", iconifyClass: "bi:badge-ar" },
+        { name: "SOAP/REST", iconifyClass: "logos-web" },
+        { name: "Java", iconifyClass: "logos-java" },
       ],
-      links: [
-        { name: "Github", url: "", iconifyClass: "ri:github-fill" },
-        { name: "Devpost", url: "", iconifyClass: "fluent:window-dev-edit-20-filled" },
-        { name: "Live Demo", url: "", iconifyClass: "mdi:web" },
+    },
+    {
+      id: "3",
+      name: "Agentic AI Applications",
+      url: "https://medium.com/@nevzatcirak",
+      description:
+        "Personalized digital twin assistant project and Agentic AI applications inspired by Medium articles.",
+      languages: [
+        { name: "AI", iconifyClass: "logos-tensorflow" },
+        { name: "Python", iconifyClass: "logos-python" },
+      ],
+    },
+    {
+      id: "4",
+      name: "OpenID Connect React Wrapper",
+      url: "https://github.com/nevzatcirak",
+      description:
+        "Developing OpenID Connect React Wrapper Library for Javascript applications.",
+      languages: [
+        { name: "React", iconifyClass: "logos-react" },
+        { name: "OIDC", iconifyClass: "logos-openid" },
       ],
     },
   ],
