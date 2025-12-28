@@ -35,45 +35,50 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: "Backend, Platform & Security",
-      fileName: "FullStackImg",
+      title: "Platform & Security",
+      fileName: "DesignImg",
       skills: [
-        "Architecting secure, scalable distributed systems and cloud-native microservices",
-        "Implementing Identity Access Management (IAM) solutions (OAuth2, OpenID Connect, AuthZEN)",
-        "Developing with Java (Spring Boot), Golang, and Rust",
-        "Policy-based authorization using OPA and zero-trust architectures",
-        "Experience with Docker, Kafka, Traefik, PostgreSQL, and MongoDB"
+        "⚡ Architecting secure, scalable distributed systems and cloud-native microservices",
+        "⚡ Implementing Identity Access Management (IAM) solutions (OAuth2, OpenID Connect, AuthZEN)",
+        "⚡ Developing with Java (Spring Boot), Golang, and Rust",
+        "⚡ Policy-based authorization using OPA and zero-trust architectures",
+        "⚡ Experience with Docker, Kafka, Traefik, PostgreSQL, and MongoDB"
       ],
       softwareSkills: [
         {
-          skillName: "Java",
-          fontAwesomeClassname: "fab fa-java",
-          style: { backgroundColor: "#007396", color: "#FFFFFF" },
-        },
-        {
           skillName: "Spring Boot",
-          fontAwesomeClassname: "fas fa-leaf",
-          style: { backgroundColor: "#6DB33F", color: "#FFFFFF" },
+          fontAwesomeClassname: "simple-icons:spring-boot",
+          style: { color: "#6DB33F" },
         },
         {
           skillName: "Golang",
-          fontAwesomeClassname: "fab fa-google",
-          style: { backgroundColor: "#00ADD8", color: "#FFFFFF" },
+          fontAwesomeClassname: "simple-icons:go",
+          style: { color: "#00ADD8" },
         },
         {
           skillName: "React",
-          fontAwesomeClassname: "fab fa-react",
-          style: { backgroundColor: "#61DAFB", color: "#FFFFFF" },
+          fontAwesomeClassname: "simple-icons:react",
+          style: { color: "#61DAFB" },
         },
         {
           skillName: "Docker",
-          fontAwesomeClassname: "fab fa-docker",
-          style: { backgroundColor: "#2496ED", color: "#FFFFFF" },
+          fontAwesomeClassname: "simple-icons:docker",
+          style: { color: "#2496ED" },
         },
         {
           skillName: "PostgreSQL",
-          fontAwesomeClassname: "fas fa-database",
-          style: { backgroundColor: "#336791", color: "#FFFFFF" },
+          fontAwesomeClassname: "simple-icons:postgreSQL",
+          style: { color: "#4169E1" },
+        },
+        {
+          skillName: "OpenID",
+          fontAwesomeClassname: "simple-icons:openid",
+          style: { color: "#F78C40" },
+        },
+        {
+          skillName: "Google Gemini",
+          fontAwesomeClassname: "simple-icons:googlegemini",
+          style: { color: "#8E75B2" },
         },
       ],
     },

@@ -47,19 +47,21 @@ export default function Greeting(props) {
                 >
                   Contact Me
                 </button>
-                <a
+                <button
                   {...styles}
-                  className="general-btn"
-                  href={greeting.aiLink}
+                  className="button"
                   style={{
                     marginLeft: "15px",
                     backgroundColor: "#E36F23",
                     color: "#fff",
                     borderColor: "#E36F23"
                   }}
+                  onClick={() => {
+                    window.open(greeting.aiLink, "_blank");
+                  }}
                 >
                   Ask Digital Assistant
-                </a>
+                </button>
               </div>
             </div>
           </div>
