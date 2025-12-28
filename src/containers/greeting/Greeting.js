@@ -47,7 +47,17 @@ export default function Greeting(props) {
                 >
                   Contact Me
                 </button>
-                <a {...styles} className="general-btn" href={greeting.aiLink}>
+                <a
+                  {...styles}
+                  className="general-btn"
+                  href={greeting.aiLink}
+                  style={{
+                    marginLeft: "15px",
+                    backgroundColor: "#E36F23",
+                    color: "#fff",
+                    borderColor: "#E36F23"
+                  }}
+                >
                   Ask Digital Assistant
                 </a>
               </div>
