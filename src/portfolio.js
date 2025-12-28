@@ -14,7 +14,8 @@ const greeting = {
   nickname: "nevzatcirak",
   full_name: "Nevzat ÇIRAK",
   subTitle:
-    "Lead Software Engineer | Security & IAM Interoperability Expert | Agentic AI Developer. 🤖 Want the deep dive? Chat with my Digital Assistant.",
+    "Lead Software Engineer | Security & IAM Interoperability Expert | Agentic AI Developer.",
+  note: "🤖 Want the deep dive? Chat with my Digital Assistant.",
   resumeLink:
     "https://drive.google.com/file/d/1yLQqIF5NlyD-QvCaCPdYt6kG1Z98b5uv/view?usp=sharing",
   mail: "mailto:nevzatcirak17@gmail.com",
