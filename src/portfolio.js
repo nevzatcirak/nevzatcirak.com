@@ -14,7 +14,7 @@ const greeting = {
   nickname: "nevzatcirak",
   full_name: "Nevzat ÇIRAK",
   subTitle:
-    "Lead Software Engineer | Backend/Platform / Security | IAM Interoperability",
+    "Lead Software Engineer | Security & IAM Interoperability Expert | Agentic AI Developer. 🤖 Want the deep dive? Chat with my Digital Assistant.",
   resumeLink:
     "https://drive.google.com/file/d/1yLQqIF5NlyD-QvCaCPdYt6kG1Z98b5uv/view?usp=sharing",
   mail: "mailto:nevzatcirak17@gmail.com",
@@ -47,7 +47,7 @@ const skills = {
       softwareSkills: [
         {
           skillName: "Spring Boot",
-          fontAwesomeClassname: "simple-icons:spring-boot",
+          fontAwesomeClassname: "simple-icons:spring",
           style: { color: "#6DB33F" },
         },
         {
@@ -56,9 +56,11 @@ const skills = {
           style: { color: "#00ADD8" },
         },
         {
-          skillName: "React",
-          fontAwesomeClassname: "simple-icons:react",
-          style: { color: "#61DAFB" },
+          skillName: "Rust",
+          fontAwesomeClassname: "simple-icons:rust",
+          style: {
+            color: "#61DAFB",
+          },
         },
         {
           skillName: "Docker",
@@ -66,9 +68,9 @@ const skills = {
           style: { color: "#2496ED" },
         },
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgreSQL",
-          style: { color: "#4169E1" },
+          skillName: "React",
+          fontAwesomeClassname: "simple-icons:react",
+          style: { color: "#61DAFB" },
         },
         {
           skillName: "OpenID",
